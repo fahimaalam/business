@@ -1,0 +1,1447 @@
+/*
+Author Name: Fahima Alam;
+Mail Address:fahima.arefeen@gmail.com;
+Site url:;
+GPL license:3.4.1;
+*/
+
+/*
+Project Name: Business
+====Index====
+1. Home
+2. About us
+3. Our Approach
+4. Our Work
+5. Free Consultation
+6. Media Query
+*/
+/*********************** THEME CSS FILE*********************** /
+/*********************** Global CSS ***********************/
+body{
+  font-family: 'Poppins', sans-serif;
+  color: #545454;
+}
+h1{
+  font-size: 55px;
+  margin: 170px 0px 20px 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+h2{
+  margin: 100px 0px 10px 0px;
+  font-size: 40px;
+  letter-spacing: -2px;
+}
+h4{
+  font-size: 22px;
+  text-align: center;
+  color: #fff;
+  padding: 5px 0px 0px 0px;
+  font-style: italic;
+  font-weight: bold;
+}
+h5{
+  font-size: 23px;
+  margin: 25px 0px 0px 0px;
+  color: #e69139;
+  letter-spacing: -1px;
+}
+h6{
+  font-size: 35px;
+  margin: 0px 0px 100px 0px;
+  color: #ffffff;
+  letter-spacing: -1px;
+}
+p {
+  font-size: 14px;
+  padding: 20px 70px;
+  color: #ffffff;
+  text-align: center;
+}
+span{
+  border: 2px solid #545454;
+  display: block;
+  margin: 0 auto;
+  width: 7%;
+}
+i{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+/*********************** Buttons CSS ***********************/
+.btn{
+  background-color: #e53025;
+  border: none;
+  padding: 8px 13px;
+  color: #ffffff;
+  font-size: 15px;
+  border-radius: 6px;
+}
+.btn:hover{
+  color: #fff;
+  background-color: #6d8d0b;
+  border-color: #198754;
+}
+.btn-hero{
+  background-color: #f7cd54;
+  border: none;
+  padding: 10px 18px;
+  color: #ffffff;
+  font-size: 18px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+}
+.btn-hero:hover{
+  color: #fff;
+  background-color: #6d8d0b;
+  border-color: #198754;
+}
+.from-btn{
+  background-color: #DE2B24;
+  font-size: 15px;
+  color: #fff;
+  display: block;
+  margin: 20px auto;
+  padding: 10px 32px;
+  border-radius: 8px;
+  border: navajowhite;
+}
+.from-btn:hover{
+  color: #fff;
+  background-color: #6d8d0b;
+  border-color: #198754;
+}
+/******************* Hearder Section ******************/
+header{
+  background-color: #f1f2f4;
+}
+.top-content{
+  display: flex;
+}
+.top-one{
+}
+.top-two{
+}
+.fa.fa-mobile {
+  display: flex;
+  font-size: 23px;
+  padding: 3px 0px 0px 0px !important;
+  font-weight: bold;
+  margin: 0px 0px 0px 23px;
+}
+.fa.fa-mobile p {
+  padding: 6px 0px 0px 6px;
+  font-size: 14px;
+  color: #545454;
+}
+.fa.fa-mobile p:hover{
+  color: #6d8d0b;
+}
+.top-three{
+  border-left: 2px solid #dedede;
+  display: flex;
+}
+.fa.fa-envelope {
+  display: flex;
+  font-size: 16px;
+  padding: 7px 10px 0px 0px;
+  font-weight: bold;
+}
+.fa.fa-envelope p {
+  padding: 0px 0px 0px 8px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #545454;
+}
+.fa.fa-envelope p:hover{
+  color: #6d8d0b;
+}
+.top-four{
+}
+.fa.fa-facebook-square {
+  font-size: 14px;
+  padding: 5px 5px 5px 5px;
+  font-weight: bold;
+  color: white;
+  background-color: #3d738f;
+  margin: 5px 0px 0px 0px;
+  border-radius: 5px;
+}
+.fa.fa-facebook-square:hover{
+  background-color: #e53025;
+}
+/******************* Navbar Section ******************/
+.bg-dark {
+  background-color: #ffffff!important;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #e53025;
+  font-size: 15px;
+  margin: 0px 35px 0px 0px;
+  font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #535250;
+  font-size: 15px;
+  margin: 0px 35px 0px 0px;
+  font-weight: bold;
+}
+.nav-item{
+ display: flex;
+}
+.fa.fa-circle {
+  font-size: 8px;
+  margin-top: 15px;
+}
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #6d8d0b;
+}
+.navbar-toggler-icon {
+  background-color: #e53025;
+  color: #ffffff;
+}
+/******************* Hero Section ******************/
+.hero{
+  background: url(../img/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-overlay{
+  background-color: #0e0f0e70;
+}
+.hero-header{
+  text-align: center;
+}
+.hero-btn{
+  margin: 0px 0px 200px 0px;
+}
+/******************* About Section ******************/
+.about{
+}
+.about-header{
+  text-align: center;
+}
+.about-header p{
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #545454;
+}
+.about-content {
+  display: flex;
+  margin: 40px 0px 50px 0px;
+}
+.about-one{
+  padding: 0px 0px 0px 50px;
+}
+.about-content h5{
+  text-align: center;
+  color: #545454;
+}
+.about-content p{
+  text-align: center;
+  color: #545454;
+}
+.about-img{
+  display: block;
+  margin: 0 auto;
+}
+.animate__animated.animate__bounceInLeft{
+  animation-duration: 3s;
+}
+/******************* Our Approach Section ******************/
+.approach{
+  background-color: #F3F3F3;
+}
+.approach-header{
+  text-align: center;
+}
+.approach-header h2{
+  margin: 100px 0px 10px 0px;
+  font-size: 40px;
+  letter-spacing: -2px;
+}
+.approach-header p{
+  text-align: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #545454;
+}
+.approach-header span{
+  border: 2px solid #545454;
+  display: block;
+  margin: 0 auto;
+  width: 7%;
+}
+.approach-content{
+  margin-bottom: 70px;
+}
+.approach-one{
+  display: flex;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+.approach-img{
+  position: relative;
+}
+.approach-text{
+}
+.approach-text h5{
+  font-size: 18px;
+  margin: 35px 0px 0px 0px;
+  letter-spacing: -1px;
+  color: #545454;
+}
+.approach-text p {
+  font-size: 14px;
+  margin: 15px 0px 0px 0px;
+  color: #545454;
+  padding: 0px 100px 0px 0px;
+  text-align: left;
+}
+.step {
+  background-color: #DE2B24;
+  border: 3px solid #f2f0f0;
+  position: absolute;
+  margin: -135px 0px 0px 250px;
+  width: 75px;
+}
+.animate__animated.animate__zoomIn{
+  animation-duration: 4s;
+}
+.step p{
+  color: #ffffff;
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.approach-two{
+  display: flex;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+.approach-img-two{
+  position: relative;
+}
+.approach-two{
+}
+.approach-two h5{
+  font-size: 18px;
+  margin: 35px 0px 0px 0px;
+  letter-spacing: -1px;
+  color: #545454;
+  text-align: right;
+}
+.approach-text-two p {
+  font-size: 14px;
+  margin: 15px 0px 0px 75px;
+  color: #545454;
+  padding: 0px 0px 0px 0px;
+  text-align: right;
+}
+.step-two {
+  background-color: #DE2B24;
+  border: 3px solid #f2f0f0;
+  position: absolute;
+  margin: -146px 0px 0px -58px;
+  width: 75px;
+}
+.step-two p {
+  color: #ffffff;
+  padding: 0px 0px 10px 0px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+/******************* Work Section ******************/
+.work{
+  background-color: #DE2B24;
+}
+.work-header{
+  text-align: center;
+}
+.work-header h2{
+  margin: 100px 0px 10px 0px;
+  font-size: 40px;
+  letter-spacing: -2px;
+  color: #ffffff;
+}
+.work-header p{
+  text-align: center;
+  font-size: 16px;
+  color: #545454;
+  color: #ffffff;
+  margin: 0px;
+}
+.work-header span{
+  border: 2px solid #ffffff;
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+}
+.work-one{
+  margin-top: 50px;
+}
+.work-one{
+  display: flex;
+}
+.work-two{
+  margin-top: 35px;
+  padding-bottom: 115px;
+}
+.image-hover{
+  position: relative;
+  overflow: hidden;
+  width: 85%;
+}
+.image-hover-content{
+  position: absolute;
+  background-color: #00000091;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: -100%;
+  transition: 0.4s ease-in-out;
+}
+.image-hover:hover .image-hover-content{
+  right: 0;
+}
+.fa.fa-paper-plane-o{
+  position: absolute;
+  font-size: 30px;
+  top: 45%;
+  left: 40%;
+  color: white;
+}
+/******************* Analysis Section ******************/
+.analysis{
+  background-color: #1287BF;
+}
+.analysis-title{
+
+}
+.analysis-title h2{
+  text-align: center;
+  font-size: 38px;
+  color: white;
+}
+.analysis-title h6{
+  font-size: 25px;
+  margin: 0px 0px 30px 0px;
+  color: #ffffff;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.icons {
+  text-align: center;
+  font-size: 45px;
+  color: #ffffffcf;
+  margin-bottom: 62px;
+}
+.fa.fa-chevron-circle-down{
+
+}
+.contact-form{
+  background: #FFFFFF;
+  text-align: center;
+  padding: 10px 10px;
+  position: relative;
+  margin-bottom: 100px;
+}
+.triangle-up {
+  width: 0px;
+  height: 0px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 35px solid #fff;
+  position: absolute;
+  top: -35px;
+  left: 46.5%;
+}
+.form-group{
+
+}
+.form-group p {
+  color: #545454 !important;
+  padding: 49px 110px 10px 100px;
+  font-size: 14px;
+}
+.form-control{
+  margin: 30px auto;
+  display: block;
+  width: 70%;
+  padding: 10px 7px;
+  background: transparent;
+  color: #2A2A2A;
+  border: 1px solid #1287BF;
+  font-size: 14px;
+}
+.animate__animated.animate__bounce{
+  animation-duration: 4s;
+}
+/******************* Get In Touch Section ******************/
+.touch{
+  background: #2A2A2A;
+  text-align: center;
+}
+.touch-title{
+
+}
+.touch-title h2{
+  color: white!important;
+  font-size: 38px;
+  letter-spacing: -1px;
+}
+.list-items{
+
+}
+.list-items i {
+  font-size: 33px !important;
+  color: white;
+  padding: 10px 18px;
+  border: 2px solid #3C3C3C;
+  margin: 50px 20px 35px 0px;
+  transition: 0.4s ease-in-out;
+}
+.list-items i:hover{
+  color: #fff;
+  background-color: #6d8d0b;
+  border-color: #198754;
+  transform: rotate(360deg);
+}
+.touch-title h6{
+  font-size: 18px;
+  color: white!important;
+  margin: 0px 0px 40px 0px;
+}
+.email-control{
+  margin: 0px auto;
+  display: block;
+  width: 65%;
+  padding: 15px 10px;
+  background: #515151;
+  color: #fff;
+  border: none;
+}
+.blank{
+  padding: 30px 0px;
+}
+.touch-two{
+  background: #515151;
+  text-align: center;
+  padding: 10px 0px;
+}
+.touch-two h6{
+  font-size: 16px;
+  margin: 10px 0px 10px 0px;
+  color: #ffffff;
+  letter-spacing: -1px;
+}
+/******************** Footer Section Start********************/
+footer{
+  background: rgb(33, 37, 41);
+  padding: 25px 0px 25px 0px;
+}
+.footer-content{
+  color: white;
+  font-size: 22px;
+  font-family: 'Water Brush', cursive;
+  text-align: center;
+}
+
+/***************************************************** Media Query ******************************************************************/ 
+/******************************Small Device (PHONES)  ***********************************/ 
+@media(min-width: 320px) and (max-width: 600px){
+.top-content {
+  display: ruby-text;
+  margin-top: 5px;
+}
+.fa.fa-mobile {
+  font-size: 20px;
+  width: 200px;
+  margin: 7px 36px 0px 0px;
+}
+.fa.fa-mobile p {
+  padding: 5px 0px 0px 8px;
+  font-size: 13px;
+}
+.fa.fa-envelope {
+  font-size: 15px;
+  padding: 0px 10px 0px 60px;
+}
+.fa.fa-envelope p {
+  padding: 0px 0px 0px 8px;
+  font-size: 15px;
+}
+.fa.fa-facebook-square {
+  font-size: 16px;
+  padding: 3px 3px 3px 3px;
+  margin: 0px 0px 0px 0px;
+}
+.top-three {
+  border: none;
+}
+.nav-item {
+  display: flex;
+  margin: 0 auto;
+}
+.top-four {
+  margin: -4px 0px 0px 0px;
+}
+.logo{
+  width: 170px;
+}
+.navbar-toggler-icon {
+  background-size: 75%;
+}
+.btn{
+  display: block;
+  margin: 0 auto;
+  padding: 5px 6px;
+  font-size: 14px;
+}
+.fa.fa-circle {
+  font-size: 8px;
+  margin: 15px 10px 0px 0px;
+}
+h1 {
+  font-size: 30px;
+  margin: 50px 0px 20px 0px;
+}
+h6 {
+  font-size: 18px;
+  margin: 0px 0px 30px 0px;
+}
+.hero-btn {
+  margin: 0px 0px 55px 0px;
+}
+.btn-hero {
+  padding: 8px 10px;
+  font-size: 14px;
+}
+h2 {
+  margin: 35px 0px 10px 0px;
+  font-size: 22px;
+}
+span {
+  border: 1px solid #545454;
+  width: 28%;
+}
+.about-header p {
+  font-size: 14px;
+  padding: 8px 0px;
+}
+.about-content h5 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  margin: 20px 0px 11px 0px;
+}
+.about-one {
+  padding: 0px 0px 0px 0px;
+}
+.about-content {
+  display: block;
+  margin: 40px 0px 0px 0px;
+}
+.about-content p {
+  padding: 0px 0px 0px 0px;
+  font-size: 13px;
+}
+.approach-header h2 {
+  margin: 55px 0px 10px 0px;
+  font-size: 22px;
+}
+.approach-header p {
+  font-size: 14px;
+  padding: 0px 15px;
+}
+.approach-one {
+  display: block;
+  margin-top: 35px;
+}
+.approach-text h5 {
+  font-size: 18px;
+  margin: 25px 0px 0px 0px;
+  padding: 0px;
+  text-align: center;
+}
+.approach-text p {
+  font-size: 13px;
+  padding: 0px 15px 25px 15px;
+  text-align: center;
+}
+.step {
+  border: 2px solid #f2f0f0;
+  margin: -209px 0px 0px 241px;
+  width: 55px;
+}
+.approach-two {
+  display: block;
+  margin-top: 35px;
+}
+.approach-two h5 {
+  font-size: 18px;
+  text-align: center;
+  padding: 25px 0px 0px 0px;
+}
+.approach-text-two p {
+  font-size: 13px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  margin: 15px 0px 24px 0px;
+}
+.step-two {
+  border: 2px solid #f2f0f0;
+  margin: -209px 0px 0px 240px;
+  width: 55px;
+}
+.work-header h2 {
+  margin: 35px 0px 10px 0px;
+  font-size: 28px;
+}
+.work-header p {
+  font-size: 14px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 22px 0px;
+}
+.work-one {
+  display: block;
+  margin: 20px 0px 0px 0px;
+}
+.work-two{
+  display: block;
+  margin: 20px 0px 0px 0px;
+  padding-bottom: 35px;
+}
+.analysis-title h2 {
+  font-size: 22px;
+  letter-spacing: 0px;
+}
+.analysis-title h6 {
+  font-size: 18px;
+}
+.icons {
+  font-size: 31px;
+  margin: 0px 0px 45px 0px;
+}
+.triangle-up {
+  left: 42.5%;
+}
+.form-group p {
+  padding: 16px 10px 10px 10px;
+  font-size: 14px;
+}
+.form-control {
+  margin: 15px auto;
+  padding: 5px 7px;
+  font-size: 12px;
+}
+.from-btn {
+  font-size: 14px;
+  margin: 20px auto;
+  padding: 4px 20px;
+}
+.contact-form {
+  margin-bottom: 35px;
+}
+.touch-title h2 {
+  font-size: 24px;
+  letter-spacing: 0px;
+  margin: 22px 0px 0px 0px;
+}
+.list-items i {
+  font-size: 18px !important;
+  padding: 10px 10px;
+  margin: 20px 0px 35px 0px;
+}
+.touch-title h6 {
+  font-size: 14px;
+  margin: 0px 0px 25px 0px;
+  font-weight: lighter;
+}
+.email-control {
+  width: 80%;
+  padding: 7px 10px;
+  font-size: 14px;
+}
+.blank {
+  padding: 15px 0px;
+}
+.touch-two h6 {
+  font-size: 14px;
+  margin: 10px 15px 10px 15px;
+  letter-spacing: 0px;
+  font-weight: lighter;
+}
+.footer-content {
+  font-size: 16px;
+}
+i {
+  font-size: 12px;
+}
+.image-hover {
+  width: 94%;
+}
+}
+
+@media(min-width: 320px) and (max-width: 360px){
+.image-hover {
+  width: 82%;
+}
+}
+@media(min-width: 361px) and (max-width: 675px){
+
+}
+@media(min-width: 376px) and (max-width: 384px){
+.image-hover {
+  width: 78%;
+}
+}
+@media(min-width: 385px) and (max-width: 393px){
+.image-hover {
+  width: 76%;
+}
+}
+@media(min-width: 394px) and (max-width: 412px){
+.image-hover {
+  width: 73%;
+}
+}
+@media(min-width: 413px) and (max-width: 490px){
+.image-hover {
+  width: 67%;
+}
+}
+@media(min-width: 491px) and (max-width: 512px){
+.image-hover {
+  width: 63%;
+}
+}
+@media(min-width: 512px) and (max-width: 600px){
+.image-hover {
+  width: 53%;
+}
+}
+/****************************** Medium Device (TABLETS)  ***********************************/ 
+@media(min-width: 601px) and (max-width: 768px){
+.top-content {
+  display: ruby-text-container;
+  margin-top: 0px 0px 0px 0px;
+}
+.fa.fa-mobile {
+  font-size: 20px;
+  width: 200px;
+  margin: 7px 36px 0px 0px;
+}
+.fa.fa-mobile p {
+  padding: 5px 0px 0px 8px;
+  font-size: 13px;
+}
+.fa.fa-envelope {
+  font-size: 15px;
+  padding: 0px 10px 0px 60px;
+}
+.fa.fa-envelope p {
+  padding: 0px 0px 0px 8px;
+  font-size: 15px;
+}
+.fa.fa-facebook-square {
+  font-size: 16px;
+  padding: 3px 3px 3px 3px;
+  margin: 0px 0px 0px 0px;
+}
+.top-three {
+  border: none;
+}
+.nav-item {
+  display: flex;
+  margin: 0 auto;
+}
+.top-four {
+  margin: -4px 0px 0px 0px;
+}
+.logo{
+  width: 170px;
+}
+.navbar-toggler-icon {
+  background-size: 75%;
+}
+.btn{
+  display: block;
+  margin: 0 auto;
+  padding: 5px 6px;
+  font-size: 14px;
+}
+.fa.fa-circle {
+  font-size: 8px;
+  margin: 15px 10px 0px 0px;
+}
+h1 {
+  font-size: 30px;
+  margin: 50px 0px 20px 0px;
+}
+h6 {
+  font-size: 18px;
+  margin: 0px 0px 30px 0px;
+}
+.hero-btn {
+  margin: 0px 0px 55px 0px;
+}
+.btn-hero {
+  padding: 8px 10px;
+  font-size: 14px;
+}
+h2 {
+  margin: 35px 0px 10px 0px;
+  font-size: 22px;
+}
+span {
+  border: 1px solid #545454;
+  width: 28%;
+}
+.about-header p {
+  font-size: 14px;
+  padding: 8px 0px;
+}
+.about-content h5 {
+  font-size: 18px;
+  letter-spacing: 0px;
+  margin: 20px 0px 11px 0px;
+}
+.about-one {
+  padding: 0px 0px 0px 0px;
+}
+.about-content {
+  display: block;
+  margin: 40px 0px 0px 0px;
+}
+.about-content p {
+  padding: 0px 0px 0px 0px;
+  font-size: 13px;
+}
+.approach-header h2 {
+  margin: 55px 0px 10px 0px;
+  font-size: 22px;
+}
+.approach-header p {
+  font-size: 14px;
+  padding: 0px 15px;
+}
+.approach-one {
+  display: block;
+  margin-top: 35px;
+}
+.approach-text h5 {
+  font-size: 18px;
+  margin: 25px 0px 0px 0px;
+  padding: 0px;
+  text-align: center;
+}
+.approach-text p {
+  font-size: 13px;
+  padding: 0px 15px 25px 15px;
+  text-align: center;
+}
+.step {
+  border: 2px solid #f2f0f0;
+  margin: -209px 0px 0px 241px;
+  width: 55px;
+}
+.approach-two {
+  display: block;
+  margin-top: 35px;
+}
+.approach-two h5 {
+  font-size: 18px;
+  text-align: center;
+  padding: 25px 0px 0px 0px;
+}
+.approach-text-two p {
+  font-size: 13px;
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+  margin: 15px 0px 24px 0px;
+}
+.step-two {
+  border: 2px solid #f2f0f0;
+  margin: -209px 0px 0px 240px;
+  width: 55px;
+}
+.work-header h2 {
+  margin: 35px 0px 10px 0px;
+  font-size: 28px;
+}
+.work-header p {
+  font-size: 14px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 22px 0px;
+}
+.work-one {
+  display: block;
+  margin: 20px 0px 0px 0px;
+}
+.work-two{
+  display: block;
+  margin: 20px 0px 0px 0px;
+  padding-bottom: 35px;
+}
+.analysis-title h2 {
+  font-size: 22px;
+  letter-spacing: 0px;
+}
+.analysis-title h6 {
+  font-size: 18px;
+}
+.icons {
+  font-size: 31px;
+  margin: 0px 0px 45px 0px;
+}
+.triangle-up {
+  left: 47%;
+}
+.form-group p {
+  padding: 16px 10px 10px 10px;
+  font-size: 14px;
+}
+.form-control {
+  margin: 15px auto;
+  padding: 5px 7px;
+  font-size: 12px;
+}
+.from-btn {
+  font-size: 14px;
+  margin: 20px auto;
+  padding: 4px 20px;
+}
+.contact-form {
+  margin-bottom: 35px;
+}
+.touch-title h2 {
+  font-size: 24px;
+  letter-spacing: 0px;
+  margin: 22px 0px 0px 0px;
+}
+.list-items i {
+  font-size: 18px !important;
+  padding: 10px 10px;
+  margin: 20px 0px 35px 0px;
+}
+.touch-title h6 {
+  font-size: 14px;
+  margin: 0px 0px 25px 0px;
+  font-weight: lighter;
+}
+.email-control {
+  width: 80%;
+  padding: 7px 10px;
+  font-size: 14px;
+}
+.blank {
+  padding: 15px 0px;
+}
+.touch-two h6 {
+  font-size: 14px;
+  margin: 10px 15px 10px 15px;
+  letter-spacing: 0px;
+  font-weight: lighter;
+}
+.footer-content {
+  font-size: 16px;
+}
+i {
+  font-size: 12px;
+}
+.image-hover {
+  width: 52%;
+}
+}
+
+/****************************** Large Device (LAPTOPS - small screen size)  ***********************************/ 
+@media(min-width: 769px) and (max-width: 992px){
+.top-content {
+  display: ruby-text-container;
+  margin-top: 0px 0px 0px 0px;
+}
+.fa.fa-mobile {
+  font-size: 20px;
+  width: 200px;
+  margin: 7px 36px 0px 0px;
+}
+.fa.fa-mobile p {
+  padding: 5px 0px 0px 8px;
+  font-size: 13px;
+}
+.fa.fa-envelope {
+  font-size: 15px;
+  padding: 0px 10px 0px 60px;
+}
+.fa.fa-envelope p {
+  padding: 0px 0px 0px 8px;
+  font-size: 15px;
+}
+.fa.fa-facebook-square {
+  font-size: 16px;
+  padding: 3px 3px 3px 3px;
+  margin: 0px 0px 0px 0px;
+}
+.top-three {
+  border: none;
+}
+.nav-item {
+  display: flex;
+  margin: 0 auto;
+}
+.top-four {
+  margin: -4px 0px 0px 0px;
+}
+.logo{
+  width: 170px;
+}
+.navbar-toggler-icon {
+  background-size: 75%;
+}
+.btn{
+  display: block;
+  margin: 0 auto;
+  padding: 5px 6px;
+  font-size: 14px;
+}
+.fa.fa-circle {
+  font-size: 8px;
+  margin: 15px 10px 0px 0px;
+}
+h1 {
+  margin: 90px 0px 20px 0px;
+}
+.hero-btn {
+  margin: 0px 0px 100px 0px;
+}
+h6 {
+  font-size: 18px;
+  margin: 0px 0px 30px 0px;
+}
+
+.btn-hero {
+  padding: 8px 10px;
+  font-size: 14px;
+}
+h2 {
+  margin: 35px 0px 10px 0px;
+  font-size: 22px;
+}
+span {
+  border: 1px solid #545454;
+  width: 28%;
+}
+.about-header p {
+  font-size: 14px;
+  padding: 8px 0px;
+}
+.about-content h5 {
+  font-size: 18px;
+  margin: 20px 0px 11px 0px;
+  padding: 0px 40px;
+}
+.about-one {
+  padding: 0px 0px 0px 0px;
+}
+.about-content {
+  display: flex;
+  margin: 40px 0px 0px 0px;
+}
+.about-content p {
+  padding: 0px 45px 0px 45px;
+  font-size: 13px;
+}
+.approach-header h2 {
+  margin: 55px 0px 10px 0px;
+  font-size: 22px;
+}
+.approach-header p {
+  font-size: 14px;
+  padding: 0px 15px;
+}
+.approach-one {
+  display: flex;
+  margin-top: 35px;
+}
+.approach-text h5 {
+  margin: 10px 0px 0px 0px;
+  padding: 0px;
+}
+.approach-text p {
+  font-size: 13px;
+  padding: 0px 0px 25px 0px; 
+}
+.step {
+  border: 2px solid #f2f0f0;
+  margin: -45px 0px 0px 123px;
+  width: 55px;
+}
+.approach-two {
+  display: flex;
+  margin-top: 35px;
+}
+.approach-two h5 {
+  padding: 0px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
+}
+.approach-text-two p {
+  padding: 0px 0px 0px 0px;
+  margin: 10px 0px 23px 0px;
+  font-size: 13px;
+}
+.step-two {
+  border: 2px solid #f2f0f0;
+  margin: -60px 0px 0px -30px;
+  width: 55px;
+}
+.work-header h2 {
+  margin: 35px 0px 10px 0px;
+  font-size: 28px;
+}
+.work-header p {
+  font-size: 14px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 22px 0px;
+}
+.work-one {
+  display: flex;
+  margin: 20px 0px 0px 0px;
+}
+.work-two{
+  display: flex;
+  margin: 20px 0px 0px 0px;
+  padding-bottom: 35px;
+}
+.analysis-title h2 {
+  font-size: 22px;
+  letter-spacing: 0px;
+}
+.analysis-title h6 {
+  font-size: 18px;
+}
+.icons {
+  font-size: 31px;
+  margin: 0px 0px 45px 0px;
+}
+.triangle-up {
+  left: 43%;
+}
+.form-group p {
+  padding: 16px 10px 10px 10px;
+  font-size: 14px;
+}
+.form-control {
+  margin: 15px auto;
+  padding: 5px 7px;
+  font-size: 12px;
+}
+.from-btn {
+  font-size: 14px;
+  margin: 20px auto;
+  padding: 4px 20px;
+}
+.contact-form {
+  margin-bottom: 35px;
+}
+.touch-title h2 {
+  font-size: 24px;
+  letter-spacing: 0px;
+  margin: 22px 0px 0px 0px;
+}
+.list-items i {
+  font-size: 18px !important;
+  padding: 10px 10px;
+  margin: 20px 0px 35px 0px;
+}
+.touch-title h6 {
+  font-size: 14px;
+  margin: 0px 0px 25px 0px;
+  font-weight: lighter;
+}
+.email-control {
+  width: 80%;
+  padding: 7px 10px;
+  font-size: 14px;
+}
+.blank {
+  padding: 15px 0px;
+}
+.touch-two h6 {
+  font-size: 14px;
+  margin: 10px 15px 10px 15px;
+  letter-spacing: 0px;
+  font-weight: lighter;
+}
+.footer-content {
+  font-size: 16px;
+}
+i {
+  font-size: 12px;
+}
+} 
+
+@media(min-width: 800px) and (max-width: 810px){
+h1 {
+  margin: 90px 0px 20px 0px;
+}
+.hero-btn {
+  margin: 0px 0px 100px 0px;
+}
+}
+
+/****************************** Large Device ( Big Screen Laptop, Monitor)  ***********************************/ 
+@media(min-width: 993px) and (max-width: 1200px){
+.top-content{
+  display: flex;
+}
+.fa.fa-mobile {
+  font-size: 23px;
+  margin: 0px 0px 0px -25px;
+}
+.fa.fa-mobile p {
+  padding: 6px 0px 0px 8px;
+}
+.logo{
+  width: 205px;
+}
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show > .nav-link {
+  font-size: 14px;
+  margin: 0px 0px 0px 0px;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #535250;
+  font-size: 14px;
+  margin: 0px 10px 0px 0px;
+}
+.fa.fa-circle {
+  font-size: 5px;
+  margin-top: 17px;
+}
+.btn {
+  padding: 5px 5px;
+  font-size: 14px;
+}
+h1 {
+  font-size: 38px;
+  margin: 115px 0px 20px 0px;
+}
+h6 {
+  font-size: 22px;
+}
+.hero-btn {
+  margin: 0px 0px 90px 0px;
+}
+.btn-hero {
+  font-size: 16px;
+}
+h2 {
+  margin: 75px 0px 10px 0px;
+  font-size: 38px;
+}
+.about-content h5 {
+  font-size: 18px;
+}
+.about-content p {
+  padding: 15px 0px 0px 0px;
+}
+.about-content {
+  margin: 40px 0px 20px 0px;
+}
+.approach-header h2 {
+  margin: 80px 0px 10px 0px;
+  font-size: 38px;
+}
+.approach-header p {
+  padding: 7px 0px;
+}
+.approach-text h5 {
+  margin: 10px 0px 0px 0px;
+}
+.approach-text p {
+  margin: 10px 0px 4px 0px;
+  padding: 0px 20px 0px 0px;
+}
+.step {
+  margin: -108px 0px 0px 170px;
+  width: 75px;
+}
+.approach-two h5 {
+  margin: 13px 0px 0px 0px;
+}
+.approach-text-two p {
+  margin: 15px 0px 6px 32px;
+  padding: 0px 0px 0px 0px;
+}
+.step-two {
+  margin: -115px 0px 0px -45px;
+}
+.work-header h2 {
+  margin: 65px 0px 5px 0px;
+  font-size: 38px;
+}
+.work-two {
+  padding-bottom: 50px;
+}
+.analysis-title h2 {
+  font-size: 29px;
+  margin: 50px 0px 14px 0px;
+}
+.analysis-title h6 {
+  font-size: 22px;
+  margin: 0px 0px 30px 0px;
+}
+.contact-form {
+  margin-bottom: 55px;
+}
+.triangle-up {
+  left: 44.5%;
+}
+.form-group p {
+  padding: 49px 10px 10px 10px;
+}
+.list-items i {
+  margin: 15px 10px 28px 0px;
+}
+.touch-two h6 {
+  font-weight: lighter;
+}
+}
+/****************************** Large Device ( Big Screen Laptop, Monitor)  ***********************************/ 
+@media(min-width: 1201px) and (max-width: 1399px){
+.top-content{
+  display: flex;
+}
+.fa.fa-mobile {
+  font-size: 23px;
+  margin: 0px 0px 0px -25px;
+}
+.fa.fa-mobile p {
+  padding: 6px 0px 0px 8px;
+}
+.step {
+  margin: -123px 0px 0px 214px;
+}
+.approach-text h5 {
+  margin: 20px 0px 0px 0px;
+}
+.step-two {
+  margin: -128px 0px 0px -58px;
+}
+.approach-two h5 {
+  margin: 28px 0px 0px 0px;
+}
+.fa.fa-paper-plane-o {
+  left: 45%;
+}
+}
+/****************************** Large Device ( Big Screen Laptop, Monitor)  ***********************************/ 
+@media(min-width: 1400px){
+
+}
+/************************************************************ END  *****************************************************************/ 
